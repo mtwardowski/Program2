@@ -46,6 +46,8 @@ public class TableTop extends Frame
 		
 		gamePieceValue();
 		
+		
+		
 		setVisible(true);				//	makes the window visible
 	} // end default constructor
 
@@ -89,6 +91,7 @@ public class TableTop extends Frame
 			int rightFaceValue = (int)keyboard.nextInt();
 			isValidNumberRight = validateFaceValue(rightFaceValue);
 		}
+		
 	}
 	
 	private boolean validateFaceValue(int faceValue)

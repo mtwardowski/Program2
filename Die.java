@@ -3,12 +3,17 @@ import java.awt.Graphics;
 
 public class Die {
 	
+	private int faceValue;
+	
+	private boolean isLeft;
+	
 	/**
 	 *	The default constructor for the
 	 */
-	public Die()
+	public Die(int value, boolean side)
 	{
-
+		faceValue = value;
+		isLeft = side;
 	} // end default constructor
 
 	/**
